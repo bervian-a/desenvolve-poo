@@ -1,0 +1,10 @@
+Estrutura e interação das entidades do sistema (Livros, autores, usuários e demais)
+Para a estutura de biblioteca, eu utilizaria programação orientada a objetos para implementar o sistema de gerenciamento desta.
+- Trataria cada entidade (livros, autores, usuários) como objetos separados, podendo incrementar informações a cada um
+de forma isolada no futuro. Encapsulamento, cada entidade classe guarda seus dados.
+- É possivel reutilizar o sistema de emprestimos no futuro caso, por exemplo, a biblioteca resolva fornecer dvds, audiobooks, ou outras formas de mídia
+no futuro, apenas adicionando novas entidades (Audiobooks, dvd), utilizando a mesma função de empréstimo. Herança de mídia e subclasses tipos de midia.
+Polimorfismo pois uma função se adapta as diferentes midias.
+- Visto que 1 autor pode ter varios livros, permite adicionar varios livros sem precisar repetir autores;
+- Na mesma ideia acima, um usuário pode emprestar varios livros.
+
